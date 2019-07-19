@@ -1,5 +1,6 @@
 // Base settings for all themes that can optionally be
 // overridden by the super-theme
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 // Background of the presentation
 $backgroundColor: #2b2b2b;
@@ -14,11 +15,11 @@ $blockMargin: 20px;
 
 // Headings
 $headingMargin: 0 0 $blockMargin 0;
-$headingFont: 'League Gothic', Impact, sans-serif;
+$headingFont: 'Raleway', Impact, sans-serif;
 $headingColor: #eee;
 $headingLineHeight: 1.2;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingTextTransform: none;
 $headingTextShadow: none;
 $headingFontWeight: normal;
 $heading1TextShadow: $headingTextShadow;
@@ -40,7 +41,7 @@ $selectionColor: #fff;
 // to return a background image or gradient
 @mixin bodyBackground() {
 	background: $backgroundColor;
-	background-image: url('../../img/spacebgdark.png');
+	background-image: url('../../img/ggbg.png');
 	background-repeat: no-repeat;
   background-size: cover;
 }

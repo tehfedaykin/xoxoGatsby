@@ -9,13 +9,14 @@
  * For other themes, change $codeBackground accordingly.
  *
  */
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
   background: #222;
-  background-image: url("../../img/spacebgdark.png");
+  background-image: url("../../img/ggbg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #222; }
@@ -56,7 +57,7 @@ body {
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
+  text-transform: none;
   text-shadow: 2px 2px 2px #222;
   word-wrap: break-word; }
 

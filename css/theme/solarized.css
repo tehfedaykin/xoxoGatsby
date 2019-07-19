@@ -2,6 +2,7 @@
  * Solarized Light theme for reveal.js.
  * Author: Achim Staebler
  */
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url(../../lib/font/league-gothic/league-gothic.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 /**
@@ -16,7 +17,7 @@ html * {
  *********************************************/
 body {
   background: #fdf6e3;
-  background-image: url("../../img/spacebgdark.png");
+  background-image: url("../../img/ggbg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #fdf6e3; }
@@ -53,11 +54,11 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #586e75;
-  font-family: "League Gothic", Impact, sans-serif;
+  font-family: "Raleway", Impact, sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
+  text-transform: none;
   text-shadow: none;
   word-wrap: break-word; }
 

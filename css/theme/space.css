@@ -3,6 +3,7 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 .twitter-overlay {
   position: absolute;
@@ -68,7 +69,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 body {
   background: #222;
-  background-image: url("../../img/spacebgdark.png");
+  background-image: url("../../img/ggbg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #222; }

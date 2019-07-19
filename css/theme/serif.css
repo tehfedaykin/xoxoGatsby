@@ -4,6 +4,7 @@
  *
  * This theme is Copyright (C) 2012-2013 Owen Versteeg, http://owenversteeg.com - it is MIT licensed.
  */
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 .reveal a {
   line-height: 1.3em; }
 
@@ -12,7 +13,7 @@
  *********************************************/
 body {
   background: #F0F1EB;
-  background-image: url("../../img/spacebgdark.png");
+  background-image: url("../../img/ggbg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #F0F1EB; }
