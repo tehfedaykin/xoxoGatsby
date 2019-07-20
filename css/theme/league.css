@@ -29,12 +29,12 @@ body {
 
 ::selection {
   color: #fff;
-  background: #FF5E99;
+  background: #000000;
   text-shadow: none; }
 
 ::-moz-selection {
   color: #fff;
-  background: #FF5E99;
+  background: #000000;
   text-shadow: none; }
 
 .reveal .slides section,

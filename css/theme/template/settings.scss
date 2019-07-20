@@ -34,14 +34,14 @@ $linkColor: #13DAEC;
 $linkColorHover: lighten( $linkColor, 20% );
 
 // Text selection
-$selectionBackgroundColor: #FF5E99;
+$selectionBackgroundColor: #000000;
 $selectionColor: #fff;
 
 // Generates the presentation background, can be overridden
 // to return a background image or gradient
 @mixin bodyBackground() {
 	background: $backgroundColor;
-	background-image: url('../../img/ggbg.png');
+	background-image: url('../../img/bgdark.png');
 	background-repeat: no-repeat;
   background-size: cover;
 }
